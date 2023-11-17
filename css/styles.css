@@ -1,0 +1,133 @@
+
+button {
+    cursor: pointer;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+.list {
+    list-style-type: none;
+}
+
+/* LOGO */
+.logo-type-top {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px #00000025;
+}
+.logo-type {
+    color: #2e2f42 ;
+}
+.logo-type-bottom {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-type-bot {
+    color: #F4F4FD;
+}
+/* BACKGROUND */
+.logo-central {
+    background-color: #2E2F42;
+}
+.menu-bottom {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.team-logo-list {
+    background-color: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF;
+}
+
+/* TEXT */
+.text-logo-central {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.text-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
+}
+.title-two {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.title-thre {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text-list {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.top-list {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text-buttom {
+    color: #F4F4FD;
+}
+/* ACTION */
+.top-list:hover,
+.top-list:focus {
+   color: #404bbf;
+}
+.menu-link {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.text-button:hover,
+.text-button:focus {
+    background-color: #404BBF;
+}
+a {
+    text-decoration: none;
+    }
