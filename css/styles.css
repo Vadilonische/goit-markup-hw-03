@@ -108,8 +108,6 @@ padding-right: 15px;
     color: #F4F4FD;
 }
 .main-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC ;
     column-gap: 40px;
     display: flex;
@@ -136,14 +134,12 @@ padding-right: 15px;
     background-color: #FFFFFF;
     width: calc((100% - 72) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 4px 0px;
 }
 .team-list-all {
     gap: 24px;
 }
 .main-navigation {
     display: flex;
-    gap: 40px;
     align-items: center;
 }
 /* ========================TEXT=================== */
@@ -229,6 +225,7 @@ padding-right: 15px;
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 .text-bottom {
     color: #F4F4FD;
