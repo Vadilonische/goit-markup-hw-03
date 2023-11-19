@@ -91,6 +91,7 @@ padding-right: 15px;
 }
 .logo-central {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .logo-type-bottom {
     font-family: "Raleway", sans-serif;
@@ -131,15 +132,22 @@ padding-right: 15px;
 }
 .team-list {
     background-color: #FFFFFF;
-    width: calc((100% - 96) / 4);
+    width: calc((100% - 72) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 4px 0px;
+}
+.team-list-all {
+    column-gap: 24px;
 }
 .main-navigation {
     display: flex;
     column-gap: 40px;
+    align-items: center;
 }
 /* ========================TEXT=================== */
+.first-list {
+    column-gap: 40px;
+}
 .padding-text {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -163,9 +171,8 @@ padding-right: 15px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 188px;
     padding-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     margin: auto;
 }
 .container-logo {
@@ -181,7 +188,10 @@ padding-right: 15px;
     letter-spacing: 0.04em;
     font-family: inherit;
     padding: 16px 32px;
-    margin-bottom: 188px;
+    display: block;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title-two {
     color: #2E2F42;
@@ -226,6 +236,9 @@ padding-right: 15px;
 .list-central {
     width: 1128px;
     column-gap: 24px;
+}
+.benefits-list {
+    width: calc((100% - 72px) / 4);
 }
 .container-team {
     max-width: 1158px;
