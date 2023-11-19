@@ -1,6 +1,8 @@
 
 button {
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,9 +18,61 @@ body {
 }
 .list {
     list-style-type: none;
+    display: flex;
+    column-gap: 40px;
 }
 
-/* LOGO */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.container {
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: space-between;
+}
+/* =======================LOGO================== */
 .logo-type-top {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -28,9 +82,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-shadow: 0px 4px 4px #00000025;
+    margin-right: 76px;
 }
 .logo-type {
     color: #2e2f42 ;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo-central {
+    background-color: #2E2F42;
 }
 .logo-type-bottom {
     font-family: "Raleway", sans-serif;
@@ -40,26 +100,62 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-type-bot {
     color: #F4F4FD;
 }
-/* BACKGROUND */
-.logo-central {
-    background-color: #2E2F42;
+.main-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC ;
 }
+.portfolio-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-list-item {
+    width: calc((100% - 48) / 3);
+}
+/* ====================BACKGROUND================= */
 .menu-bottom {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 .team-logo-list {
     background-color: #F4F4FD;
 }
 .team-list {
     background-color: #FFFFFF;
+    width: calc((100% - 96) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 4px 0px;
 }
+.main-navigation {
+    display: flex;
+    column-gap: 40px;
+}
+/* ========================TEXT=================== */
+.padding-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom-right-radius: 4px solid;
+    border-bottom-left-radius: 4px solid;
+    text-align: center;
+}
+.portfolio-text {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 
-/* TEXT */
+}
 .text-logo-central {
     color: #FFFFFF;
     font-size: 56px;
@@ -67,6 +163,14 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    width: 496px;
+    margin: auto;
+}
+.container-logo {
+    text-align: center;
+    align-items: center;
 }
 .text-button {
     color: #FFFFFF;
@@ -76,6 +180,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-family: inherit;
+    padding: 16px 32px;
+    margin-bottom: 188px;
 }
 .title-two {
     color: #2E2F42;
@@ -85,6 +191,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .title-thre {
@@ -93,6 +200,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .text-list {
     color: #434455;
@@ -106,11 +214,28 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
-.text-buttom {
+.text-bottom {
     color: #F4F4FD;
+    max-width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
-/* ACTION */
+.list-central {
+    width: 1128px;
+    column-gap: 24px;
+}
+.container-team {
+    max-width: 1158px;
+    border-radius: 4px;
+}
+.section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+/* ==================ACTION==================*/
 .top-list:hover,
 .top-list:focus {
    color: #404bbf;
@@ -119,6 +244,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
